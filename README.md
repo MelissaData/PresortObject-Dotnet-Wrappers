@@ -12,15 +12,15 @@ For further details, please visit: https://docs.melissa.com/on-premise-api/preso
 ## Tested Environments
 - Windows 10 64-bit .NET 7.0, Powershell 5.1
 - Linux 64-bit .NET 7.0, Ubuntu 20.04.05 LTS
-- Melissa Presort Object for 2024-08
+- Melissa Presort Object for 2024-09
 - Wrapper file(s) have not changed since 2024-01
 
 ## Getting Started
 
 ### Download this project
 ```
-$ git clone https://github.com/MelissaData/PresortObject-Dotnet-Wrappers
-$ cd PresortObject-Dotnet-Wrappers
+git clone https://github.com/MelissaData/PresortObject-Dotnet-Wrappers
+cd PresortObject-Dotnet-Wrappers
 ```
 
 ### Copy wrappers to your project folder
@@ -50,13 +50,13 @@ Parameters:
 - license (optional): a license key to run the powershell script
 
 ```
-$ .\BuildPresortNETdll.ps1
+.\BuildPresortNETdll.ps1
 ```
 
 or
 
 ```
-$ .\BuildPresortNETdll.ps1 -license "<your_license_key>"
+.\BuildPresortNETdll.ps1 -license "<your_license_key>"
 ```
 
 ## See also
